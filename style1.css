@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#header {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: #092635;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+#pages-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#part1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

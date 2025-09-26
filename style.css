@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#header {
+    height: 90px;
+    width: 100%;
+    background-color: #092635;
+    background-image: url(background2.png);
+    background-size: cover;
+    background-position: center ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+#pages-div {
+    display: flex;
+    justify-content: space-around;
+}
+#pages-div a:hover {
+    color: white;
+    background-color:blueviolet;
+    text-decoration: underline;
+}
+.section1{
+   position:relative;
+   }
+.section1 div{
+    position: absolute;
+    top:5%;
+    left:50%;
+    margin-left:-30%;
+    color:rgba(216, 91, 164, 0.473);
+    font-size: 24px;
+}
+.section1 img{
+    
+    width:100%;
+    height:545px;
+    object-fit: cover;
+  }
+  .section2 {
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/054/766/713/small_2x/a-dimly-lit-textured-blue-room-with-a-spotlight-effect-on-the-floor-photo.jpeg);
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.section2 img {
+  height: 300px;
+  width: 280px;
+  border-radius: 10px;
+}
+
+.section2 h1 {
+  color: #fff;
+  margin-left:top;
+  text-align:top;
+  display:block;
+  align-items:top;
+  justify-content:space-evenly;
+
+}
+.scrolling{
+    background-color: linear-gradient(to right,rgb(92, 43, 43),white);
+    padding:10px;
+    text-align: right;
+}
+.section3 img{
+    height: 545px;;
+    width:50%;
+    padding:20px;
+
+
+}
+.section3{
+    background-color:aquamarine;
+    display: flex;
+  align-items: center;
+  padding: 0 50px;
+    
+}
+section3 h1 {
+  margin-left:top;
+  text-align:top;
+  display:block;
+  align-items:top;
+  justify-content:space-evenly;
+}
